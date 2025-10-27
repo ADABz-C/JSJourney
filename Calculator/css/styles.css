@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p {
 .wrapper{
     width: 700px;
     height: 700px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;  
@@ -37,10 +37,27 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 51px;
     margin-top: 37px;
 }
-
+/* seperate display and reuslt screen
+    as up and down and 50% each */
 .numPadContainer{
     width: 306px;
     height: 246px;
     background-color: #D9D9D9;
     margin: auto;
+}
+.numPadContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+button{
+    width: 53px;
+    height: 38px;
+    background-color: #783030;
+    color: whitesmoke;
+    font-size: 32px;
+    margin: 11px;
 }
