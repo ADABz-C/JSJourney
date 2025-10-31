@@ -1,3 +1,7 @@
+@font-face {
+    font-family: digital;
+    src: url(../font/digital-7/digital-7.ttf);
+}
 * {
  margin: 0;
  padding: 0;
@@ -8,6 +12,9 @@ html, body {
 }
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px
+}
+input{
+    font-family: digital;
 }
 
 .wrapper{
@@ -37,7 +44,26 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 51px;
     margin-top: 37px;
 }
-/* seperate display and reuslt screen
+
+.operationDisplay{
+    width: 100%;
+    height: 50%;
+    border: solid 2px rgb(177, 162, 162);
+}
+.operationDisplay input{
+    width: 100%;
+    height: 100%;
+    font-size: 51px;
+    text-align: right;
+}
+.resultDisplay{
+    width: 100%;
+    height: 50%;
+    /* border-radius: 10%; */
+    border: solid 2px rgb(177, 162, 162);
+    background-color: rgb(173, 167, 167);
+}
+/* seperate display and result screen
     as up and down and 50% each */
 .numPadContainer{
     width: 306px;
